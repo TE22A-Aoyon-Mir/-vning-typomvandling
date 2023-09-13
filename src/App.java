@@ -12,6 +12,15 @@ public class App {
         double kvot = tal1/tal2;
         double dkvot= (double)tal1/tal2;
         System.out.println("Kvoten är: "+dkvot);
-        System.out.println("Kvoten är: "+kvot); 
+        System.out.println("Kvoten är: "+kvot);
+
+        tangentbord.nextLine();
+
+        System.out.println("Substantiv program:");
+        System.out.println("Ange ett substantiv:");
+        String sub = tangentbord.nextLine();
+        System.out.println("Ange substantivets pluraländelse:");
+        String subä = tangentbord.nextLine();
+        System.out.println("En/ett "+sub+" flera "+sub+subä);
     }
 }
